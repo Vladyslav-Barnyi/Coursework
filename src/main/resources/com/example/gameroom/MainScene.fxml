@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="295.0"
+      prefWidth="346.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.gameroom.controller.MainSceneController">
+    <children>
+        <Button fx:id="typeIgrashok" layoutX="96.0" layoutY="91.0" mnemonicParsing="false"
+                text="Вивести всі типи іграшок"/>
+        <Button fx:id="buyIgrashki" layoutX="123.0" layoutY="135.0" mnemonicParsing="false" text="Купити іграшки"/>
+    </children>
+</Pane>

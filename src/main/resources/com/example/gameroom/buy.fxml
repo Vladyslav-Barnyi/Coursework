@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="231.0"
+      prefWidth="456.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.gameroom.controller.buyController">
+    <children>
+        <Text fx:id="txBalance" layoutX="96.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              text="Ваш поточний баланс: "/>
+        <ComboBox fx:id="listIgrashok" layoutX="96.0" layoutY="96.0" prefWidth="150.0"/>
+        <Text layoutX="96.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              text="Оберіть іграшку яку хочете придбати"/>
+        <Button fx:id="butBack" layoutX="199.0" layoutY="138.0" mnemonicParsing="false" text="Повернутися назад"/>
+        <Button fx:id="buyAcept" layoutX="96.0" layoutY="138.0" mnemonicParsing="false" text="Придбати"/>
+        <Text fx:id="textError" layoutX="96.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0"/>
+    </children>
+</Pane>
